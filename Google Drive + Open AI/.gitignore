@@ -1,0 +1,46 @@
+# ---- Archivos y carpetas de PyCharm ----
+.idea/
+*.iml
+
+# ---- Entorno virtual ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- Archivos de Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# ---- Archivos temporales / logs ----
+*.log
+*.pot
+*.py[cod]
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- Configuración del sistema ----
+.vscode/
+*.tmp
+
+# ---- Archivos de dependencias compilados ----
+build/
+dist/
+
+# ---- Archivos de Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Archivos sensibles ----
+*.env
+.env.local
+
+# ---- Archivos de pruebas ----
+.coverage
+htmlcov/
+.pytest_cache/
